@@ -1,0 +1,116 @@
+[02.03.2025 23:35:56] ERROR: Код состояния ответа не указывает на успешное выполнение: 400 (Bad Request).
+StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 171
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 180
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 37
+--------------------------------------------------
+[02.03.2025 23:36:03] ERROR: Код состояния ответа не указывает на успешное выполнение: 400 (Bad Request).
+StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 171
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 180
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 37
+--------------------------------------------------
+[02.03.2025 23:36:10] ERROR: Код состояния ответа не указывает на успешное выполнение: 400 (Bad Request).
+StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 171
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 180
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 37
+--------------------------------------------------
+[03.03.2025 18:14:25] ERROR: Код состояния ответа не указывает на успешное выполнение: 400 (Bad Request).
+StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 167
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 176
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 37
+--------------------------------------------------
+[03.03.2025 18:15:03] ERROR: Код состояния ответа не указывает на успешное выполнение: 400 (Bad Request).
+StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 167
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 176
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 37
+--------------------------------------------------
+[03.03.2025 18:18:35] ERROR: Ошибка при соединении с сайтом:Код состояния ответа не указывает на успешное выполнение: 400 (Bad Request).
+StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 167
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 176
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 37
+--------------------------------------------------
+[03.03.2025 18:34:38] ERROR: Ошибка при соединении с сайтом: Код состояния ответа не указывает на успешное выполнение: 400 (Bad Request).
+StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 179
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 188
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 37
+--------------------------------------------------
+[03.03.2025 18:36:19] ERROR: Ошибка при соединении с сайтом: Код состояния ответа не указывает на успешное выполнение: 400 (Bad Request).
+StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 179
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 188
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 47
+--------------------------------------------------
+[03.03.2025 18:39:23] ERROR: Введите название города.
+StackTrace:    в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 36
+--------------------------------------------------
+[03.03.2025 18:40:24] ERROR: Выберете период для прогноза.
+StackTrace:    в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 40
+--------------------------------------------------
+[03.03.2025 18:40:30] ERROR: Введите название города.
+StackTrace:    в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 36
+--------------------------------------------------
+[03.03.2025 19:46:35] ERROR: Ошибка при восстановлении базы данных: 25001: DROP DATABASE cannot run inside a transaction block
+StackTrace:    в TestTask.DatabaseDump.<RestoreDatabase>d__5.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\DatabaseDump.cs:строка 59
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 45
+--------------------------------------------------
+[03.03.2025 20:22:18] ERROR: Ошибка при соединении с сайтом: Код состояния ответа не указывает на успешное выполнение: 404 (Not Found).
+StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 179
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 188
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 47
+--------------------------------------------------
