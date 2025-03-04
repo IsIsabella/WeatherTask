@@ -14,7 +14,9 @@ namespace TestTask
 {
     public partial class Menu : Form
     {
-
+        private readonly string host = "localhost";
+        private readonly string username = "postgres";
+        private readonly string password = "12345";
         private readonly string databaseName = "weather";
         private Timer Timer;
         private readonly TimeSpan timeInterval = TimeSpan.FromMinutes(180); //Обновлять каждые 3 часа.
@@ -42,28 +44,28 @@ namespace TestTask
                 else
                 {
                     string city = CityName.Text;
-                    CreateInsertDb createInsertDb = new CreateInsertDb(databaseName, city);
+                    CreateInsertDb createInsertDb = new CreateInsertDb(host, username, password, databaseName, city);
                     await createInsertDb.CreateDatabase();
                     await createInsertDb.InsertDatabase();
                     Hide();
                     if (comboBoxTime.SelectedItem.ToString() == "Ближайшие три часа")
                     {
-                        var ResForm = new ThreeHoursRes(databaseName, city);
+                        var ResForm = new ThreeHoursRes(host, username, password, databaseName, city);
                         ResForm.Show();
                     }
                     if (comboBoxTime.SelectedItem.ToString() == "На день")
                     {
-                        var ResForm = new OneDayRes(databaseName, city);
+                        var ResForm = new OneDayRes(host, username, password, databaseName, city);
                         ResForm.Show();
                     }
                     if (comboBoxTime.SelectedItem.ToString() == "На три дня")
                     {
-                        var ResForm = new ThreeDaysRes(databaseName, city);
+                        var ResForm = new ThreeDaysRes(host, username, password, databaseName, city);
                         ResForm.Show();
                     }
                     if (comboBoxTime.SelectedItem.ToString() == "На пять дней")
                     {
-                        var ResForm = new FiveDaysRes(databaseName, city);
+                        var ResForm = new FiveDaysRes(host, username, password, databaseName, city);
                         ResForm.Show();
                     }
                 }
@@ -71,13 +73,13 @@ namespace TestTask
             catch (Exception ex)
             {
                 ErrorLogger.LogError(ex);
-                MessageBox.Show($"Произошла ошибка: {ex.Message}");
+                MessageBox.Show($"Произошла ошибка: {ex.Message}", "Ошибка");
             }
         }
         private void buttonHistory_Click(object sender, EventArgs e)
         {
             Hide();
-            var ResForm = new History(databaseName);
+            var ResForm = new History(host, username, password, databaseName);
             ResForm.Show();
         }
         private void Menu_FormClosing(object sender, FormClosingEventArgs e)
@@ -104,9 +106,9 @@ namespace TestTask
         {
             try
             {
-                UpdateData updateData = new UpdateData(databaseName);
+                UpdateData updateData = new UpdateData(host, username, password, databaseName);
                 await updateData.UpdateWeatherData();
-                MessageBox.Show("Данные успешно обновлены.");
+                MessageBox.Show("Данные успешно обновлены.", "Предупреждение");
             }
             catch (Exception ex)
             {
@@ -117,9 +119,9 @@ namespace TestTask
         {
             try
             {
-                UpdateData updateData = new UpdateData(databaseName);
+                UpdateData updateData = new UpdateData(host, username, password, databaseName);
                 await updateData.UpdateWeatherData();
-                MessageBox.Show("Данные успешно обновлены.");
+                MessageBox.Show("Данные успешно обновлены.", "Предупреждение");
             }
             catch (Exception ex)
             {

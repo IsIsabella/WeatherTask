@@ -15,11 +15,17 @@ namespace TestTask
 {
     public partial class ThreeHoursRes: Form
     {
-        private string databaseName;
-        private string cityName;
-        public ThreeHoursRes(string db, string city)
+        private readonly string host;
+        private readonly string username;
+        private readonly string password;
+        private readonly string databaseName;
+        private readonly string cityName;
+        public ThreeHoursRes(string host, string username, string password, string db, string city)
         {
             InitializeComponent();
+            this.host = host;
+            this.username = username;
+            this.password = password;
             databaseName = db;
             cityName= city;
             labelCity.Text = city;
@@ -29,7 +35,7 @@ namespace TestTask
         {
             try
             {
-                ShowResult showResult = new ShowResult(databaseName, cityName);
+                ShowResult showResult = new ShowResult(host, username, password, databaseName, cityName);
                 string result = await showResult.Results("threehours");
                 string[] parts = result.Split(new string[] { "\t" }, StringSplitOptions.RemoveEmptyEntries).ToArray();
                 labelTemp.Text = $"{parts[2]}°C";
@@ -41,7 +47,7 @@ namespace TestTask
                 labelWindSpeed.Text = $"{parts[8]} м/с";
                 labelVisibility.Text = $"{parts[9]} м";
                 labelPop.Text = $"{parts[10]}%";
-                ShowHistory showHistory = new ShowHistory(databaseName);
+                ShowHistory showHistory = new ShowHistory(host, username, password, databaseName);
                 DateTime date = DateTime.Parse(parts[1]);
                 await showHistory.InsertHistory(cityName, date, decimal.Parse(parts[2]), parts[6]);
             }

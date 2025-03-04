@@ -10,15 +10,17 @@ namespace TestTask
 {
     public class ShowHistory
     {
-        private readonly string host = "localhost";
-        private readonly string username = "postgres";
-        private readonly string password = "12345";
-        private string databaseName;
+        private readonly string host;
+        private readonly string username;
+        private readonly string password;
+        private readonly string databaseName;
 
-        public ShowHistory(string databaseName)
+        public ShowHistory(string host, string username, string password, string databaseName)
         {
+            this.host = host;
+            this.username = username;
+            this.password = password;
             this.databaseName = databaseName;
-
         }
         public async Task InsertHistory(string city, DateTime datetime, decimal temperature, string conditions)
         {
@@ -75,9 +77,9 @@ namespace TestTask
                             int fieldCount = dataReader.FieldCount;
                             while (dataReader.Read())// Чтаем данные
                             {
-                                for (int i = 0; i < fieldCount; i++)
+                                for (int i = 0; i < fieldCount; i++)//Получаем значения каждого столбца.
                                 {
-                                    object value = dataReader.GetValue(i);//Получаем значение столбца.
+                                    object value = dataReader.GetValue(i);
                                     string stringValue = "";
                                     if (value == DBNull.Value)
                                     {
@@ -89,7 +91,7 @@ namespace TestTask
                                     }
                                     result.Append(stringValue);
                                 }
-                                result.AppendLine();//Переходим на новую строку после каждой записи
+                                result.AppendLine();
                             }
                         }
                     }
@@ -116,39 +118,38 @@ namespace TestTask
         public async Task<string> FilterHistory(string filtertype)
         {
             string connectionString = $"Host={host};Username={username};Password={password};Database={databaseName}";
-            string sql = "";
-            if (filtertype == "OpDateAsc")
+            string sql = "select\r\n    operationid,\r\n    to_char(operationdate, 'yyyy.MM.dd HH24:MI:SS'),\r\n    cityname,\r\n    datetime,\r\n    temperature,\r\n    conditions\r\nfrom\r\n    history\r\n";
+            string orderByPart = "";
+            switch (filtertype)
             {
-                sql = "select\r\n    operationid,\r\n    to_char(operationdate, 'yyyy.MM.dd HH24:MI:SS'),\r\n    cityname,\r\n    datetime,\r\n    temperature,\r\n    conditions\r\nfrom\r\n    history\r\norder by\r\n    operationdate asc;";
+                case "OpDateAsc":
+                    orderByPart = "order by\r\n    operationdate asc;";
+                    break;
+                case "OpDateDesc":
+                    orderByPart = "order by\r\n    operationdate desc;";
+                    break;
+                case "CityAsc":
+                    orderByPart = "order by\r\n    cityname asc;";
+                    break;
+                case "CityDesc":
+                    orderByPart = "order by\r\n    cityname desc;";
+                    break;
+                case "DateAsc":
+                    orderByPart = "order by\r\n    datetime asc;";
+                    break;
+                case "DateDesc":
+                    orderByPart = "order by\r\n    datetime desc;";
+                    break;
+                case "TempAsc":
+                    orderByPart = "order by\r\n    temperature asc;";
+                    break;
+                case "TempDesc":
+                    orderByPart = "order by\r\n    temperature desc;";
+                    break;
+                default:
+                    break;
             }
-            if (filtertype == "OpDateDesc")
-            {
-                sql = "select\r\n    operationid,\r\n    to_char(operationdate, 'yyyy.MM.dd HH24:MI:SS'),\r\n    cityname,\r\n    datetime,\r\n    temperature,\r\n    conditions\r\nfrom\r\n    history\r\norder by\r\n    operationdate desc;";
-            }
-            if (filtertype == "CityAsc")
-            {
-                sql = "select\r\n    operationid,\r\n    to_char(operationdate, 'yyyy.MM.dd HH24:MI:SS'),\r\n    cityname,\r\n    datetime,\r\n    temperature,\r\n    conditions\r\nfrom\r\n    history\r\norder by\r\n    cityname asc;";
-            }
-            if (filtertype == "CityDesc")
-            {
-                sql = "select\r\n    operationid,\r\n    to_char(operationdate, 'yyyy.MM.dd HH24:MI:SS'),\r\n    cityname,\r\n    datetime,\r\n    temperature,\r\n    conditions\r\nfrom\r\n    history\r\norder by\r\n    cityname desc;";
-            }
-            if (filtertype == "DateAsc")
-            {
-                sql = "select\r\n    operationid,\r\n    to_char(operationdate, 'yyyy.MM.dd HH24:MI:SS'),\r\n    cityname,\r\n    datetime,\r\n    temperature,\r\n    conditions\r\nfrom\r\n    history\r\norder by\r\n    datetime asc;";
-            }
-            if (filtertype == "DateDesc")
-            {
-                sql = "select\r\n    operationid,\r\n    to_char(operationdate, 'yyyy.MM.dd HH24:MI:SS'),\r\n    cityname,\r\n    datetime,\r\n    temperature,\r\n    conditions\r\nfrom\r\n    history\r\norder by\r\n    datetime desc;";
-            }
-            if (filtertype == "TempAsc")
-            {
-                sql = "select\r\n    operationid,\r\n    to_char(operationdate, 'yyyy.MM.dd HH24:MI:SS'),\r\n    cityname,\r\n    datetime,\r\n    temperature,\r\n    conditions\r\nfrom\r\n    history\r\norder by\r\n    temperature asc;";
-            }
-            if (filtertype == "TempDesc")
-            {
-                sql = "select\r\n    operationid,\r\n    to_char(operationdate, 'yyyy.MM.dd HH24:MI:SS'),\r\n    cityname,\r\n    datetime,\r\n    temperature,\r\n    conditions\r\nfrom\r\n    history\r\norder by\r\n    temperature desc;";
-            }
+            sql += orderByPart;
             StringBuilder result = new StringBuilder();
             NpgsqlConnection connection = null;
             try

@@ -10,14 +10,17 @@ namespace TestTask
 {
     public class CreateInsertDb
     {
-        private readonly string host = "localhost";
-        private readonly string username = "postgres";
-        private readonly string password = "12345";
-        private string databaseName;
-        private string city;
+        private readonly string host;
+        private readonly string username;
+        private readonly string password;
+        private readonly string databaseName;
+        private readonly string city;
 
-        public CreateInsertDb(string databaseName, string city)
+        public CreateInsertDb(string host,string username,string password, string databaseName, string city)
         {
+            this.host = host;
+            this.username = username;
+            this.password = password;
             this.databaseName = databaseName;
             this.city = city;
         }

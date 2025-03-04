@@ -13,11 +13,18 @@ namespace TestTask
 {
     public partial class OneDayRes: Form
     {
-        private string databaseName;
-        private string cityName;
-        public OneDayRes(string db, string city)
+
+        private readonly string host;
+        private readonly string username;
+        private readonly string password;
+        private readonly string databaseName;
+        private readonly string cityName;
+        public OneDayRes(string host, string username, string password, string db, string city)
         {
             InitializeComponent();
+            this.host = host;
+            this.username = username;
+            this.password = password;
             databaseName = db;
             cityName = city;
             Result_Load(this, EventArgs.Empty);
@@ -26,7 +33,7 @@ namespace TestTask
         {
             try
             {
-                ShowResult showResult = new ShowResult(databaseName, cityName);
+                ShowResult showResult = new ShowResult(host, username, password, databaseName, cityName);
                 string result = await showResult.Results("oneday");
                 //Разделяем входную строку по отдельным прогнозам.
                 string[] forecasts = result.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
@@ -38,7 +45,7 @@ namespace TestTask
                 labelpost1.Text = firstForecastParts[3];
                 labelprob1.Text = firstForecastParts[5];
                 labelcond1.Text = firstForecastParts[4];
-                ShowHistory showHistory = new ShowHistory(databaseName);
+                ShowHistory showHistory = new ShowHistory(host, username, password, databaseName);
                 DateTime date = DateTime.Parse(firstForecastParts[1]);
                 await showHistory.InsertHistory(cityName, date, decimal.Parse(firstForecastParts[2]), firstForecastParts[4]);
 

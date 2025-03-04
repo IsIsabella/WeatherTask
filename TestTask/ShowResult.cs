@@ -9,13 +9,16 @@ namespace TestTask
 {
     public class ShowResult
     {
-        private readonly string host = "localhost";
-        private readonly string username = "postgres";
-        private readonly string password = "12345";
-        private string databaseName;
-        private string city;
-        public ShowResult(string databaseName, string city)
+        private readonly string host;
+        private readonly string username;
+        private readonly string password;
+        private readonly string databaseName;
+        private readonly string city;
+        public ShowResult(string host, string username, string password, string databaseName, string city)
         {
+            this.host = host;
+            this.username = username;
+            this.password = password;
             this.databaseName = databaseName;
             this.city = city;
         }
@@ -23,21 +26,22 @@ namespace TestTask
         {
             string connectionString = $"Host={host};Username={username};Password={password};Database={databaseName}";
             string sql = "";
-            if (restype == "threehours")
+            switch (restype)
             {
-                sql = $"select\r\nc.cityname,\r\nf.datetime,\r\ni.temperature,\r\ni.feelslike,\r\ni.pressure,\r\ni.humidity,\r\ni.conditions,\r\ni.clouds,\r\ni.windspeed,\r\ni.visibility,\r\ni.pop\r\nfrom\r\ncity c\r\njoin\r\nforecast f on c.cityid = f.cityid\r\njoin\r\ninformation i on f.forecastid = i.informationid\r\nwhere\r\nc.cityname = '{city}'\r\nand\r\nf.datetime >= NOW()  \r\norder by\r\nabs(extract(epoch from (f.datetime - NOW()))) \r\nlimit 1;";
-            }
-            if (restype == "oneday")
-            {
-                sql = $"select\r\n    c.cityname,\r\n    f.datetime,\r\n    i.temperature,\r\n    i.pressure,\r\n    i.conditions,\r\n    i.pop\r\nfrom\r\n    city c\r\njoin\r\n    forecast f on c.cityid = f.cityid\r\njoin\r\n    information i on f.forecastid = i.informationid\r\nwhere\r\n    c.cityname = '{city}'\r\n    and f.datetime between current_date + interval '1 day' and (current_date + interval '1 day') + interval '21 hours'\r\n    and extract(hour from f.datetime) in (0, 3, 6, 9, 12, 15, 18, 21)\r\norder by\r\n    f.datetime;\r\n ";
-            }
-            if (restype == "threedays")
-            {
-                sql = $"select\r\nc.cityname,\r\nf.datetime,\r\ni.temperature,\r\ni.conditions\r\nfrom\r\ncity c\r\njoin\r\nforecast f on c.cityid = f.cityid\r\njoin\r\ninformation i on f.forecastid = i.informationid\r\nwhere\r\nc.cityname = '{city}'\r\nand (\r\nf.datetime between now() - interval '3 days' and now() + interval '3 days'\r\nor (extract(hour from f.datetime) = 0 \r\nand extract(minute from f.datetime) = 0 and extract(second from f.datetime) = 0) \r\n)\r\nand extract(hour from f.datetime) in (0, 12)\r\norder by\r\nf.datetime;";
-            }
-            if (restype == "fivedays")
-            {
-                sql = $"select\r\n    c.cityname,\r\n    f.datetime,\r\n    i.temperature,\r\n    i.conditions\r\nfrom\r\n    city c\r\njoin\r\n    forecast f on c.cityid = f.cityid\r\njoin\r\n    information i on f.forecastid = i.informationid\r\nwhere\r\n    c.cityname = '{city}'\r\n    and (\r\n        f.datetime between now() - interval '5 days' and now() + interval '5 days'\r\n        or (extract(hour from f.datetime) = 0 and extract(minute from f.datetime) = 0 and extract(second from f.datetime) = 0) \r\n    )\r\n    and extract(hour from f.datetime) in (0, 12)\r\norder by\r\n    f.datetime;";
+                case "threehours":
+                    sql = $"select\r\nc.cityname,\r\nf.datetime,\r\ni.temperature,\r\ni.feelslike,\r\ni.pressure,\r\ni.humidity,\r\ni.conditions,\r\ni.clouds,\r\ni.windspeed,\r\ni.visibility,\r\ni.pop\r\nfrom\r\ncity c\r\njoin\r\nforecast f on c.cityid = f.cityid\r\njoin\r\ninformation i on f.forecastid = i.informationid\r\nwhere\r\nc.cityname = '{city}'\r\nand\r\nf.datetime >= NOW()  \r\norder by\r\nabs(extract(epoch from (f.datetime - NOW()))) \r\nlimit 1;";
+                    break;
+                case "oneday":
+                    sql = $"select\r\n    c.cityname,\r\n    f.datetime,\r\n    i.temperature,\r\n    i.pressure,\r\n    i.conditions,\r\n    i.pop\r\nfrom\r\n    city c\r\njoin\r\n    forecast f on c.cityid = f.cityid\r\njoin\r\n    information i on f.forecastid = i.informationid\r\nwhere\r\n    c.cityname = '{city}'\r\n    and f.datetime between current_date + interval '1 day' and (current_date + interval '1 day') + interval '21 hours'\r\n    and extract(hour from f.datetime) in (0, 3, 6, 9, 12, 15, 18, 21)\r\norder by\r\n    f.datetime;\r\n ";
+                    break;
+                case "threedays":
+                    sql = $"select\r\nc.cityname,\r\nf.datetime,\r\ni.temperature,\r\ni.conditions\r\nfrom\r\ncity c\r\njoin\r\nforecast f on c.cityid = f.cityid\r\njoin\r\ninformation i on f.forecastid = i.informationid\r\nwhere\r\nc.cityname = '{city}'\r\nand (\r\nf.datetime between now() - interval '3 days' and now() + interval '3 days'\r\nor (extract(hour from f.datetime) = 0 \r\nand extract(minute from f.datetime) = 0 and extract(second from f.datetime) = 0) \r\n)\r\nand extract(hour from f.datetime) in (0, 12)\r\norder by\r\nf.datetime;";
+                    break;
+                case "fivedays":
+                    sql = $"select\r\n    c.cityname,\r\n    f.datetime,\r\n    i.temperature,\r\n    i.conditions\r\nfrom\r\n    city c\r\njoin\r\n    forecast f on c.cityid = f.cityid\r\njoin\r\n    information i on f.forecastid = i.informationid\r\nwhere\r\n    c.cityname = '{city}'\r\n    and (\r\n        f.datetime between now() - interval '5 days' and now() + interval '5 days'\r\n        or (extract(hour from f.datetime) = 0 and extract(minute from f.datetime) = 0 and extract(second from f.datetime) = 0) \r\n    )\r\n    and extract(hour from f.datetime) in (0, 12)\r\norder by\r\n    f.datetime;";
+                    break;
+                default:
+                    throw new Exception("Ошибка в работе программы.");
             }
             StringBuilder result = new StringBuilder();
             NpgsqlConnection connection = null;

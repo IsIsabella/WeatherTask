@@ -12,11 +12,17 @@ namespace TestTask
 {
     public partial class FiveDaysRes: Form
     {
-        private string databaseName;
-        private string cityName;
-        public FiveDaysRes(string db, string city)
+        private readonly string host;
+        private readonly string username;
+        private readonly string password;
+        private readonly string databaseName;
+        private readonly string cityName;
+        public FiveDaysRes(string host, string username, string password, string db, string city)
         {
             InitializeComponent();
+            this.host = host;
+            this.username = username;
+            this.password = password;
             databaseName = db;
             cityName = city;
             Result_Load(this, EventArgs.Empty);
@@ -25,7 +31,7 @@ namespace TestTask
         {
             try
             {
-                ShowResult showResult = new ShowResult(databaseName, cityName);
+                ShowResult showResult = new ShowResult(host, username, password, databaseName, cityName);
                 string result = await showResult.Results("fivedays");
                 string[] forecasts = result.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
                 string[] firstForecastParts = forecasts[0].Split(new string[] { "\t" }, StringSplitOptions.RemoveEmptyEntries);
@@ -34,7 +40,7 @@ namespace TestTask
                 labeltemp1.Text = firstForecastParts[2];
                 labelcond1.Text = firstForecastParts[3];
 
-                ShowHistory showHistory = new ShowHistory(databaseName);
+                ShowHistory showHistory = new ShowHistory(host, username, password, databaseName);
                 DateTime date = DateTime.Parse(firstForecastParts[1]);
                 await showHistory.InsertHistory(cityName, date, decimal.Parse(firstForecastParts[2]), firstForecastParts[3]);
 

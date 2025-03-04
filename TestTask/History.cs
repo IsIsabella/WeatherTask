@@ -12,10 +12,16 @@ namespace TestTask
 {
     public partial class History: Form
     {
-        private string databaseName;
-        public History(string db)
+        private readonly string host;
+        private readonly string username;
+        private readonly string password;
+        private readonly string databaseName;
+        public History(string host, string username, string password, string db)
         {
             InitializeComponent();
+            this.host = host;
+            this.username = username;
+            this.password = password;
             databaseName = db;
             Result_Load(this, EventArgs.Empty);
         }
@@ -23,7 +29,7 @@ namespace TestTask
         {
             try
             {
-                ShowHistory showResult = new ShowHistory(databaseName);
+                ShowHistory showResult = new ShowHistory(host, username, password, databaseName);
                 string result = await showResult.History();
                 richTextBoxHistory.Text = result;
             }
@@ -43,7 +49,7 @@ namespace TestTask
         {
             try
             {
-                ShowHistory showResult = new ShowHistory(databaseName);
+                ShowHistory showResult = new ShowHistory(host, username, password, databaseName);
                 string result = await showResult.FilterHistory("OpDateAsc");
                 richTextBoxHistory.Clear();
                 richTextBoxHistory.Text = result;
@@ -58,7 +64,7 @@ namespace TestTask
         {
             try
             {
-                ShowHistory showResult = new ShowHistory(databaseName);
+                ShowHistory showResult = new ShowHistory(host, username, password, databaseName);
                 string result = await showResult.FilterHistory("OpDateDesc");
                 richTextBoxHistory.Clear();
                 richTextBoxHistory.Text = result;
@@ -73,7 +79,7 @@ namespace TestTask
         {
             try
             {
-                ShowHistory showResult = new ShowHistory(databaseName);
+                ShowHistory showResult = new ShowHistory(host, username, password, databaseName);
                 string result = await showResult.FilterHistory("CityAsc");
                 richTextBoxHistory.Clear();
                 richTextBoxHistory.Text = result;
@@ -88,7 +94,7 @@ namespace TestTask
         {
             try
             {
-                ShowHistory showResult = new ShowHistory(databaseName);
+                ShowHistory showResult = new ShowHistory(host, username, password, databaseName);
                 string result = await showResult.FilterHistory("CityDesc");
                 richTextBoxHistory.Clear();
                 richTextBoxHistory.Text = result;
@@ -103,7 +109,7 @@ namespace TestTask
         {
             try
             {
-                ShowHistory showResult = new ShowHistory(databaseName);
+                ShowHistory showResult = new ShowHistory(host, username, password, databaseName);
                 string result = await showResult.FilterHistory("DateAsc");
                 richTextBoxHistory.Clear();
                 richTextBoxHistory.Text = result;
@@ -118,7 +124,7 @@ namespace TestTask
         {
             try
             {
-                ShowHistory showResult = new ShowHistory(databaseName);
+                ShowHistory showResult = new ShowHistory(host, username, password, databaseName);
                 string result = await showResult.FilterHistory("DateDesc");
                 richTextBoxHistory.Clear();
                 richTextBoxHistory.Text = result;
@@ -133,7 +139,7 @@ namespace TestTask
         {
             try
             {
-                ShowHistory showResult = new ShowHistory(databaseName);
+                ShowHistory showResult = new ShowHistory(host, username, password, databaseName);
                 string result = await showResult.FilterHistory("TempAsc");
                 richTextBoxHistory.Clear();
                 richTextBoxHistory.Text = result;
@@ -148,7 +154,7 @@ namespace TestTask
         {
             try
             {
-                ShowHistory showResult = new ShowHistory(databaseName);
+                ShowHistory showResult = new ShowHistory(host, username, password, databaseName);
                 string result = await showResult.FilterHistory("TempDesc");
                 richTextBoxHistory.Clear();
                 richTextBoxHistory.Text = result;

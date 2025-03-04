@@ -362,7 +362,7 @@
             // 
             this.labelprob1.AutoSize = true;
             this.labelprob1.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelprob1.Location = new System.Drawing.Point(509, 109);
+            this.labelprob1.Location = new System.Drawing.Point(544, 109);
             this.labelprob1.Name = "labelprob1";
             this.labelprob1.Size = new System.Drawing.Size(54, 23);
             this.labelprob1.TabIndex = 28;
@@ -372,7 +372,7 @@
             // 
             this.labelprob2.AutoSize = true;
             this.labelprob2.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelprob2.Location = new System.Drawing.Point(509, 154);
+            this.labelprob2.Location = new System.Drawing.Point(544, 154);
             this.labelprob2.Name = "labelprob2";
             this.labelprob2.Size = new System.Drawing.Size(54, 23);
             this.labelprob2.TabIndex = 29;
@@ -382,7 +382,7 @@
             // 
             this.labelprob3.AutoSize = true;
             this.labelprob3.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelprob3.Location = new System.Drawing.Point(509, 195);
+            this.labelprob3.Location = new System.Drawing.Point(544, 195);
             this.labelprob3.Name = "labelprob3";
             this.labelprob3.Size = new System.Drawing.Size(54, 23);
             this.labelprob3.TabIndex = 30;
@@ -392,7 +392,7 @@
             // 
             this.labelprob4.AutoSize = true;
             this.labelprob4.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelprob4.Location = new System.Drawing.Point(509, 234);
+            this.labelprob4.Location = new System.Drawing.Point(544, 234);
             this.labelprob4.Name = "labelprob4";
             this.labelprob4.Size = new System.Drawing.Size(54, 23);
             this.labelprob4.TabIndex = 31;
@@ -402,7 +402,7 @@
             // 
             this.labelprob5.AutoSize = true;
             this.labelprob5.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelprob5.Location = new System.Drawing.Point(509, 278);
+            this.labelprob5.Location = new System.Drawing.Point(544, 278);
             this.labelprob5.Name = "labelprob5";
             this.labelprob5.Size = new System.Drawing.Size(54, 23);
             this.labelprob5.TabIndex = 32;
@@ -412,7 +412,7 @@
             // 
             this.labelprob6.AutoSize = true;
             this.labelprob6.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelprob6.Location = new System.Drawing.Point(509, 318);
+            this.labelprob6.Location = new System.Drawing.Point(544, 318);
             this.labelprob6.Name = "labelprob6";
             this.labelprob6.Size = new System.Drawing.Size(54, 23);
             this.labelprob6.TabIndex = 33;
@@ -422,7 +422,7 @@
             // 
             this.labelprob7.AutoSize = true;
             this.labelprob7.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelprob7.Location = new System.Drawing.Point(509, 360);
+            this.labelprob7.Location = new System.Drawing.Point(544, 360);
             this.labelprob7.Name = "labelprob7";
             this.labelprob7.Size = new System.Drawing.Size(54, 23);
             this.labelprob7.TabIndex = 34;
@@ -432,7 +432,7 @@
             // 
             this.labelprob8.AutoSize = true;
             this.labelprob8.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelprob8.Location = new System.Drawing.Point(509, 405);
+            this.labelprob8.Location = new System.Drawing.Point(544, 405);
             this.labelprob8.Name = "labelprob8";
             this.labelprob8.Size = new System.Drawing.Size(54, 23);
             this.labelprob8.TabIndex = 35;
@@ -442,7 +442,7 @@
             // 
             this.labelcond1.AutoSize = true;
             this.labelcond1.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelcond1.Location = new System.Drawing.Point(617, 109);
+            this.labelcond1.Location = new System.Drawing.Point(705, 109);
             this.labelcond1.Name = "labelcond1";
             this.labelcond1.Size = new System.Drawing.Size(56, 23);
             this.labelcond1.TabIndex = 36;
@@ -452,7 +452,7 @@
             // 
             this.labelcond2.AutoSize = true;
             this.labelcond2.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelcond2.Location = new System.Drawing.Point(617, 154);
+            this.labelcond2.Location = new System.Drawing.Point(705, 154);
             this.labelcond2.Name = "labelcond2";
             this.labelcond2.Size = new System.Drawing.Size(56, 23);
             this.labelcond2.TabIndex = 37;
@@ -462,7 +462,7 @@
             // 
             this.labelcond3.AutoSize = true;
             this.labelcond3.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelcond3.Location = new System.Drawing.Point(617, 195);
+            this.labelcond3.Location = new System.Drawing.Point(705, 195);
             this.labelcond3.Name = "labelcond3";
             this.labelcond3.Size = new System.Drawing.Size(56, 23);
             this.labelcond3.TabIndex = 38;
@@ -472,7 +472,7 @@
             // 
             this.labelcond4.AutoSize = true;
             this.labelcond4.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelcond4.Location = new System.Drawing.Point(617, 234);
+            this.labelcond4.Location = new System.Drawing.Point(705, 234);
             this.labelcond4.Name = "labelcond4";
             this.labelcond4.Size = new System.Drawing.Size(56, 23);
             this.labelcond4.TabIndex = 39;
@@ -482,7 +482,7 @@
             // 
             this.labelcond5.AutoSize = true;
             this.labelcond5.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelcond5.Location = new System.Drawing.Point(617, 278);
+            this.labelcond5.Location = new System.Drawing.Point(705, 278);
             this.labelcond5.Name = "labelcond5";
             this.labelcond5.Size = new System.Drawing.Size(56, 23);
             this.labelcond5.TabIndex = 40;
@@ -492,7 +492,7 @@
             // 
             this.labelcond6.AutoSize = true;
             this.labelcond6.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelcond6.Location = new System.Drawing.Point(617, 318);
+            this.labelcond6.Location = new System.Drawing.Point(705, 318);
             this.labelcond6.Name = "labelcond6";
             this.labelcond6.Size = new System.Drawing.Size(56, 23);
             this.labelcond6.TabIndex = 41;
@@ -502,7 +502,7 @@
             // 
             this.labelcond7.AutoSize = true;
             this.labelcond7.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelcond7.Location = new System.Drawing.Point(617, 360);
+            this.labelcond7.Location = new System.Drawing.Point(705, 360);
             this.labelcond7.Name = "labelcond7";
             this.labelcond7.Size = new System.Drawing.Size(56, 23);
             this.labelcond7.TabIndex = 42;
@@ -512,7 +512,7 @@
             // 
             this.labelcond8.AutoSize = true;
             this.labelcond8.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelcond8.Location = new System.Drawing.Point(617, 405);
+            this.labelcond8.Location = new System.Drawing.Point(705, 405);
             this.labelcond8.Name = "labelcond8";
             this.labelcond8.Size = new System.Drawing.Size(56, 23);
             this.labelcond8.TabIndex = 43;
@@ -532,37 +532,37 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Bookman Old Style", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(197, 77);
+            this.label4.Location = new System.Drawing.Point(171, 77);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 18);
+            this.label4.Size = new System.Drawing.Size(116, 18);
             this.label4.TabIndex = 45;
-            this.label4.Text = "температура";
+            this.label4.Text = "температура, °C";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Bookman Old Style", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(343, 77);
+            this.label5.Location = new System.Drawing.Point(327, 77);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 18);
+            this.label5.Size = new System.Drawing.Size(127, 18);
             this.label5.TabIndex = 46;
-            this.label5.Text = "давление";
+            this.label5.Text = "давление, mm Hg";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Bookman Old Style", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(437, 77);
+            this.label6.Location = new System.Drawing.Point(495, 77);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(147, 18);
+            this.label6.Size = new System.Drawing.Size(167, 18);
             this.label6.TabIndex = 47;
-            this.label6.Text = "вероятность осадков";
+            this.label6.Text = "вероятность осадков, %";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Bookman Old Style", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(618, 77);
+            this.label7.Location = new System.Drawing.Point(706, 77);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(128, 18);
             this.label7.TabIndex = 48;
@@ -570,7 +570,7 @@
             // 
             // buttonReturn
             // 
-            this.buttonReturn.Location = new System.Drawing.Point(314, 466);
+            this.buttonReturn.Location = new System.Drawing.Point(396, 468);
             this.buttonReturn.Name = "buttonReturn";
             this.buttonReturn.Size = new System.Drawing.Size(144, 46);
             this.buttonReturn.TabIndex = 49;
@@ -582,7 +582,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 553);
+            this.ClientSize = new System.Drawing.Size(932, 553);
             this.Controls.Add(this.buttonReturn);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);

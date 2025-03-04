@@ -148,9 +148,9 @@
             this.label5.Font = new System.Drawing.Font("Bookman Old Style", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(404, 96);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 18);
+            this.label5.Size = new System.Drawing.Size(116, 18);
             this.label5.TabIndex = 56;
-            this.label5.Text = "температура";
+            this.label5.Text = "температура, °C";
             // 
             // label7
             // 

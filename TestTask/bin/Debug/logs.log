@@ -114,3 +114,28 @@ StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\
    в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
    в TestTask.Menu.<FindOut_Click>d__4.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 47
 --------------------------------------------------
+[04.03.2025 18:09:21] ERROR: Введите название города.
+StackTrace:    в TestTask.Menu.<FindOut_Click>d__7.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 38
+--------------------------------------------------
+[04.03.2025 22:14:46] ERROR: Ошибка при соединении с сайтом: Код состояния ответа не указывает на успешное выполнение: 404 (Not Found).
+StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 182
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 191
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__7.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 49
+--------------------------------------------------
+[04.03.2025 22:15:05] ERROR: Ошибка при соединении с сайтом: Код состояния ответа не указывает на успешное выполнение: 404 (Not Found).
+StackTrace:    в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 182
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в TestTask.CreateInsertDb.<InsertDatabase>d__8.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\CreateInsertDb.cs:строка 191
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в TestTask.Menu.<FindOut_Click>d__7.MoveNext() в G:\Учеба ЯрГУ\5 курс\Собеседование\TestTask\TestTask\Menu.cs:строка 49
+--------------------------------------------------

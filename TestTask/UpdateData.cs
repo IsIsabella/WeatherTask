@@ -10,14 +10,16 @@ namespace TestTask
 {
     public class UpdateData
     {
-        private readonly string host = "localhost";
-        private readonly string username = "postgres";
-        private readonly string password = "12345";
-        private string databaseName;
-        public UpdateData(string databaseName)
+        private readonly string host;
+        private readonly string username;
+        private readonly string password;
+        private readonly string databaseName;
+        public UpdateData(string host, string username, string password, string databaseName)
         {
+            this.host = host;
+            this.username = username;
+            this.password = password;
             this.databaseName = databaseName;
-
         }
         private async Task<List<string>> GetCities()
         {
@@ -70,7 +72,7 @@ namespace TestTask
                 List<string> cities = await GetCities();
                 foreach (string city in cities)
                 {
-                    CreateInsertDb createInsertDb = new CreateInsertDb(databaseName, city);
+                    CreateInsertDb createInsertDb = new CreateInsertDb(host, username, password, databaseName, city);
                     await createInsertDb.InsertDatabase();
                 }
             }

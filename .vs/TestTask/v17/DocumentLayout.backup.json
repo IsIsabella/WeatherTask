@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|g:\\\u0443\u0447\u0435\u0431\u0430 \u044F\u0440\u0433\u0443\\5 \u043A\u0443\u0440\u0441\\\u0441\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\testtask\\testtask\\onedayres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|solutionrelative:testtask\\onedayres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|g:\\\u0443\u0447\u0435\u0431\u0430 \u044F\u0440\u0433\u0443\\5 \u043A\u0443\u0440\u0441\\\u0441\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\testtask\\testtask\\onedayres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|solutionrelative:testtask\\onedayres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|g:\\\u0443\u0447\u0435\u0431\u0430 \u044F\u0440\u0433\u0443\\5 \u043A\u0443\u0440\u0441\\\u0441\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\testtask\\testtask\\showresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|solutionrelative:testtask\\showresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|g:\\\u0443\u0447\u0435\u0431\u0430 \u044F\u0440\u0433\u0443\\5 \u043A\u0443\u0440\u0441\\\u0441\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\testtask\\testtask\\updatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|solutionrelative:testtask\\updatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|g:\\\u0443\u0447\u0435\u0431\u0430 \u044F\u0440\u0433\u0443\\5 \u043A\u0443\u0440\u0441\\\u0441\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\testtask\\testtask\\threehoursres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|solutionrelative:testtask\\threehoursres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|g:\\\u0443\u0447\u0435\u0431\u0430 \u044F\u0440\u0433\u0443\\5 \u043A\u0443\u0440\u0441\\\u0441\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\testtask\\testtask\\showhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|solutionrelative:testtask\\showhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|g:\\\u0443\u0447\u0435\u0431\u0430 \u044F\u0440\u0433\u0443\\5 \u043A\u0443\u0440\u0441\\\u0441\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\testtask\\testtask\\createinsertdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|solutionrelative:testtask\\createinsertdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\testtask\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6EA1CFE-D9C0-40CC-934E-EA056854FACE}|TestTask\\TestTask.csproj|solutionrelative:testtask\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShowResult.cs",
-              "DocumentMoniker": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\ShowResult.cs",
-              "RelativeDocumentMoniker": "TestTask\\ShowResult.cs",
-              "ToolTip": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\ShowResult.cs",
-              "RelativeToolTip": "TestTask\\ShowResult.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAA5AQAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "OneDayRes.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\OneDayRes.cs",
+              "RelativeDocumentMoniker": "TestTask\\OneDayRes.cs",
+              "ToolTip": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\OneDayRes.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "TestTask\\OneDayRes.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T18:57:05.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T19:21:40.388Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OneDayRes.cs",
-              "DocumentMoniker": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\OneDayRes.cs",
-              "RelativeDocumentMoniker": "TestTask\\OneDayRes.cs",
-              "ToolTip": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\OneDayRes.cs",
-              "RelativeToolTip": "TestTask\\OneDayRes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UpdateData.cs",
+              "DocumentMoniker": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\UpdateData.cs",
+              "RelativeDocumentMoniker": "TestTask\\UpdateData.cs",
+              "ToolTip": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\UpdateData.cs",
+              "RelativeToolTip": "TestTask\\UpdateData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T18:28:09.763Z",
+              "WhenOpened": "2025-03-04T15:40:34.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ThreeHoursRes.cs",
-              "DocumentMoniker": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\ThreeHoursRes.cs",
-              "RelativeDocumentMoniker": "TestTask\\ThreeHoursRes.cs",
-              "ToolTip": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\ThreeHoursRes.cs",
-              "RelativeToolTip": "TestTask\\ThreeHoursRes.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBoAAAAJAAAAAAAAAA==",
+              "Title": "Menu.cs",
+              "DocumentMoniker": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\Menu.cs",
+              "RelativeDocumentMoniker": "TestTask\\Menu.cs",
+              "ToolTip": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\Menu.cs",
+              "RelativeToolTip": "TestTask\\Menu.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwH4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T17:31:32.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShowHistory.cs",
-              "DocumentMoniker": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\ShowHistory.cs",
-              "RelativeDocumentMoniker": "TestTask\\ShowHistory.cs",
-              "ToolTip": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\ShowHistory.cs",
-              "RelativeToolTip": "TestTask\\ShowHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T16:29:07.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateInsertDb.cs",
-              "DocumentMoniker": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\CreateInsertDb.cs",
-              "RelativeDocumentMoniker": "TestTask\\CreateInsertDb.cs",
-              "ToolTip": "G:\\\u0423\u0447\u0435\u0431\u0430 \u042F\u0440\u0413\u0423\\5 \u043A\u0443\u0440\u0441\\\u0421\u043E\u0431\u0435\u0441\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\\TestTask\\TestTask\\CreateInsertDb.cs",
-              "RelativeToolTip": "TestTask\\CreateInsertDb.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAAAJcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T16:19:31.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T14:32:05.212Z"
             }
           ]
         }
